@@ -1,0 +1,65 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(231, 217, 189);
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgb(192, 180, 160);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#kontenerselect{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+button {
+    background-color: ghostwhite;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(185, 185, 194);
+}
+
+#wynik {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(231, 217, 189);
+}
+
+#wynik p {
+    margin: 10px 0;
+}
+
+#wynik span {
+    font-weight: bold;
+    color: #007BFF;
+}
+select{
+    width: 60px;
+    text-align: center;
+}
